@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'eng';
+    src: url(applegothic.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  
+  body {
+    font-family: eng;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    color: white;
+  }
+  
+  div {	
+    width: 100%;	
+    height: 100vh;
+  }
+  
+  /*{
+    //font-family: cursive;
+    //box-sizing: padding-box;
+  }
+  */
+  
+  form {
+    width: 1000px;
+    border: none;
+    padding: 20px;
+    background: #DA1884;
+    border-radius: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #DA1884
+  }
+  
+  input {
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+  }
+  
+  label {
+    color: #888;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  /* button {
+    float: right;
+    font-family: eng;
+    font-size: 20px;
+    background: #FFB6C1;
+    padding: 10px 30px;
+    color: black;
+    margin: 10px 10px 10px 10px;
+    border: none;
+  } */
+
+  button {
+    font-family: eng;
+    font-size: 20px;
+    background: #FFB6C1;
+    padding: 10px 20px; /* 좌우 패딩을 조절합니다. */
+    color: black;
+    margin: 10px 5px; /* 좌우 마진을 조절합니다. */
+    border: none;
+    display: inline-block; /* 버튼을 인라인 블록 요소로 설정합니다. */
+    width: auto; /* 너비를 자동으로 설정하여 내용에 맞게 크기가 조정되도록 합니다. */
+}
+
+
+  
+  button:hover{
+    opacity: .10;
+  }
+  
+  .error {
+   background: #F2DEDE;
+   color: #0c0101;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #FFB6C1;
+  }
+  
+  a {
+    float: right;
+    font-family: eng;
+    font-size: 20px;
+    background: #FFB6C1;
+    color:black;
+    padding: 10px 30px;
+    margin: 10px 10px 10px 10px;
+    border: none;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    opacity: .7;
+  }
+  
+  .box {
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #F9D1D7;
+    clear: both;
+  }
+  
+  .main_image {
+    float: left;
+    padding: 5px;
+  }
+  .main_image_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: black;
+    text-shadow: -1px 0px #FFB6C1, 0px 1px #FFB6C1, 1px 0px #FFB6C1, 0px -1px #FFB6C1;
+  }
+  
+  .container 
+  {
+    height: 100vh;
+    width: 100%;
+    
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .contain {
+    align-items: center; 
+    float: left;
+  }
+
+  .white-text {
+    color: white;
+}
+
