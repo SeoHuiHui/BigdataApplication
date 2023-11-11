@@ -1,5 +1,7 @@
+
 <!DOCTYPE html>
 <meta charset="utf-8" />
+<?php include '../header.php'; ?>
 <link rel="stylesheet" type="text/css" href="../css/style.css">
  <section class="ranking">
     <h1 class="heading-title"><span style="font-size:30px">Travel Ranking</span></h1>

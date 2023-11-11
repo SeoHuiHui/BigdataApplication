@@ -11,12 +11,14 @@
   <meta name="keywords" content="" />
   
   <link rel="stylesheet" href="../css/style.css">
+  <?php include '../header.php'; ?>
 
   <title>Accommodation</title>
 </head>
 <body>
     <div>
-
+    <br></br>
+    <center>
     <form action="guResultSeoul.php" method = "post" class="">
     <select name="gu">
 
@@ -48,6 +50,7 @@
     <input type="submit" value="검색">
 
 </form>
+</center>
 </div>
 
 <?php

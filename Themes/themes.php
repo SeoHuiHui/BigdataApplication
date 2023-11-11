@@ -1,5 +1,7 @@
 <html>
 <link rel="stylesheet" type="text/css" href="../css/style.css">
+<?php include '../header.php'; ?>
+
 <body>
 <section class="services">
     <h1 class="heading-title"><span style="font-size:30px">Travel Themes</span></h1>
@@ -13,3 +15,6 @@
 </section>
 </body>
 </html>
+
+
+

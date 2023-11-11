@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <meta charset="utf-8" />
 <link rel="stylesheet" type="text/css" href="../css/style.css">
+<?php include '../header.php'; ?>
+<br></br>
 <h1 class="heading-title"><span style="font-size:30px">조건에 맞는 부산 식당</span></h1>
 <?php
                 $mysqli = mysqli_connect("localhost", "team03", "team03", "team03");

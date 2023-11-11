@@ -6,10 +6,12 @@
   <meta name="author" content="">
   <link rel="shortcut icon" href="favicon.png">
 
+
   <meta name="description" content="" />
   <meta name="keywords" content="" />
   
   <link rel="stylesheet" type="" href="../css/style.css">
+  <?php include '../header.php'; ?>
 
 
   <title>Transportation</title>
@@ -30,6 +32,7 @@
             if ($res) {
 
                 $destination = $_POST['destination'];
+                echo "<br></br>";
                 echo "<span style='color:#FFB6C1; font-size:20px'>";
                 echo "서울 출발 ".$destination." 도착 교통편 검색 결과입니다.<br/>";
                 echo "<br/>";

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-
-<link rel="stylesheet" type="text/css" href="../css/style.css">
 <meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<?php include '../header.php'; ?>
+
 <h1 class="heading-title"><span style="font-size:50px">Sites for Attractions</span></h1>
 <br>
 

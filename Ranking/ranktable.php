@@ -4,13 +4,14 @@
 <h1 class="heading-title"><span style="font-size:30px">Ranked Table</span></h1>
 
 <?php
-
+include '../header.php';
 $mysqli = mysqli_connect("localhost", "team03", "team03", "team03");
 $sql="SELECT *
 FROM rankTable
 WHERE CITY='".$_POST['city1']."' OR CITY='".$_POST['city2']."' OR CITY='".$_POST['city3']."'";
 $res=mysqli_query($mysqli, $sql);
 if ($res) {
+    echo "<br></br>";
     echo "<span style='color:#FFB6C1; font-size:20px'>";
     echo "<table border cols=5>\n";
     echo "<tr><th>검색어명</th><th>지역명</th><th>모바일 검색량</th><th>PC 검색량</th><th>총 검색량</th></tr>\n";

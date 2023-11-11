@@ -2,7 +2,8 @@
 <meta charset="utf-8" />
 <link rel="stylesheet" type="text/css" href="../css/style.css">
 <h1 class="heading-title"><span style="font-size:30px">가까운 식당 찾기 [서울] </span></h1>
-
+<?php include '../header.php'; ?>
+<br></br>
 <form action = "selectSeoul.php" method = "post">
 
     <select name="gu">

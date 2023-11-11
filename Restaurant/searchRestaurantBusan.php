@@ -2,7 +2,8 @@
 <meta charset="utf-8" />
 <link rel="stylesheet" type="text/css" href="../css/style.css">
 <h1 class="heading-title"><span style="font-size:30px">가까운 식당 찾기 [부산] </span></h1>
-
+<?php include '../header.php'; ?>
+<br></br>
 <form action = "selectBusan.php" method = "post">
 <select name="gu">
     <option value="강서구" selected>강서구</option>

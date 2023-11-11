@@ -1,6 +1,7 @@
 <?php 
 session_start(); 
 include "db_conn.php";
+include 'header2.php'; 
 if (isset($_POST['uname']) && isset($_POST['password'])) {
     function validate($data){
        $data = trim($data);
@@ -26,7 +27,10 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
                 $_SESSION['user_name'] = $row['user_name'];
                 $_SESSION['name'] = $row['name'];
                 $_SESSION['id'] = $row['id'];
-                header("Location: home.php");
+                // header("Location: home.php");
+                if ($uname === 'administrator') {
+                    echo '<a href="admin/manager.php">Go to Manager Page</a>';
+                }
                 exit();
             }else{
                 header("Location: index.php?error=Incorect User name or password");
@@ -37,6 +41,7 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
             exit();
         }
     }
+    
 }else{
     header("Location: index.php");
     exit();

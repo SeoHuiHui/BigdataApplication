@@ -1,4 +1,8 @@
+
+
+
 <!doctype html>
+
 <html lang="ko">
 <head>
   <meta charset="utf-8">
@@ -10,15 +14,17 @@
   <meta name="keywords" content="" />
   
   <link rel="stylesheet" href="../css/style.css">
+  <?php include '../header.php'; ?>
 
   <title>Transportation</title>
 </head>
 <body>
-    <div class="center-search">
+    
     <h1 class="heading-title">서울 출발 교통편 검색하기</h1>
-        
     </div>
+    
     <div>
+    <center>
         <form action="transSelect.php" method = "post" class="">
           <select name="destination">
             <option value="강릉">강릉</option>
@@ -34,7 +40,9 @@
         </select>
 
         <input type="submit" value="검색">
+
         </form>
+        </center>
     </div>
 </body>
-</html>
+

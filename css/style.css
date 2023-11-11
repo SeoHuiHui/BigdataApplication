@@ -169,3 +169,68 @@
     color: white;
 }
 
+
+
+header{
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 20vh;
+  align-items: center;
+  justify-content: center;
+  background: #FFB6C1;
+}
+#menu {
+  width: 90%;
+  height: 200px; 
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+#logo {
+  width: 300px; 
+  height: 150px; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+#logo h1 {
+  color: white; 
+  display: flex; 
+  justify-content: center;
+}
+#topMenu {
+  display: flex; 
+  flex-direction: row;
+  margin-top: 20px; 
+}
+#topMenu > li > a{
+  display:block;
+  color: white;
+  font-size: 20px;
+  font-weight: bold; 
+}
+
+
+.mg-textarea {
+  margin: 50px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.mg-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.mg-container button {
+  margin: 0 10px;
+  height: 5vh;
+}

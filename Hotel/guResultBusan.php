@@ -11,6 +11,8 @@
   <meta name="keywords" content="" />
   
   <link rel="stylesheet" href="../css/style.css">
+  <?php include '../header.php'; ?>
+  <br></br>
 
   <title>Accommodation</title>
 </head>
