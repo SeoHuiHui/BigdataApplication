@@ -1,4 +1,5 @@
 <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
 <?php
     $mysqli = mysqli_connect("localhost", "team03", "team03", "team03");
     if(mysqli_connect_error()){

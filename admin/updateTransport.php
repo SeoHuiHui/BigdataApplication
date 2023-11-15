@@ -1,4 +1,5 @@
 <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
 <?php
 // session_start();
 include '../header.php';
@@ -16,7 +17,7 @@ include '../header.php';
         $res = mysqli_query($mysqli, $sql);
 
         if ($res) {
-            echo "<script>alert('별점 업데이트가 완료되었습니다.');</script>";
+            echo "<script>alert('교통수단이 성공적으로 삭제되었습니다.');</script>";
 
             $selectSql = "SELECT * FROM accomTable WHERE ACCOM_NAME = '$accom_name'";
             $selectRes = mysqli_query($mysqli, $selectSql);

@@ -15,7 +15,7 @@
             <center>
             <div class="delete-box">
                 <h4>삭제할 교통 수단의 종류와 출발지-도착지를 입력해주세요.</h4>
-                <form action="deleteTransport.php" method="post">
+                <form action="updateTransport.php" method="post">
                     <label for="transport_name">교통수단:</label>
                     <select name="transport_name" id="transport_name" required>
                         <option value="KTX">KTX</option>

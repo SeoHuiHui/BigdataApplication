@@ -17,7 +17,7 @@ $sql = "SELECT *
         ) RANKED
         WHERE RANKED.CITY='" . $_POST['city1'] . "' OR RANKED.CITY='" . $_POST['city2'] . "' OR RANKED.CITY='" . $_POST['city3'] . "'";
 $res = mysqli_query($mysqli, $sql);
-print($sql);
+
 if ($res) {
     echo "<span style='color:#FFB6C1; font-size:20px'>";
     echo "<table border cols=6 width='1000' height='200'>\n";
