@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <meta charset="utf-8" />
-
 <link rel="stylesheet" type="text/css" href="../css/style.css">
+<h1 class="heading-title"><span style="font-size:30px">음식 종류별 평균 가격 [서울] </span></h1>
 <?php include '../header.php'; ?>
 <br></br>
-<h1 class="heading-title"><span style="font-size:30px">음식 종류별 평균 가격 [서울] </span></h1>
+
 <form action = "avgresultSeoul.php" method = "post">
 원하는 음식 타입을 선택하세요. <br />
     <select name="type">

@@ -12,6 +12,7 @@
   
   <link rel="stylesheet" href="../css/style.css">
   <?php include '../header.php'; ?>
+  
 
   <title>Accommodation</title>
 </head>
@@ -19,6 +20,7 @@
     <div>
     <br></br>
 <center>
+
     <form action="guResultBusan.php" method = "post" class="">
     <select name="gu">
 

@@ -12,6 +12,7 @@
             <p>교통 수단 관리</p>
         </div>
         <div class="mg-container">
+            <center>
             <div class="delete-box">
                 <h4>삭제할 교통 수단의 종류와 출발지-도착지를 입력해주세요.</h4>
                 <form action="deleteTransport.php" method="post">
@@ -34,6 +35,7 @@
                     <input type="submit" value=확인>
                 </form>
             </div>
+</center>
         </div>
     </body>
 </html>

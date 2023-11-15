@@ -1,20 +1,22 @@
 <meta charset="utf-8">
-<?php 
-// session_start(); 
-include '../header.php';
-?>
+<?php include '../header.php'; ?>
+
 <html>
 
     <head>
         <title>Manager</title>
         <link rel="stylesheet" type="text/css" href="../css/style.css">
     </head>
+ 
     <body>
+    
         <div class="mg-textarea">
-            <h2>Accomodation Management</h2>
+        <h2>Accomodation Management</h2>
             <h3>호텔 별점 관리</h3>
         </div>
+        
         <div class="mg-container">
+            <center>
             <div class="delete-box">
                 <h4>숙소의 별점을 업데이트해주세요.</h4>
                 <form action="updateAccomodation.php" method="post">
@@ -25,6 +27,7 @@ include '../header.php';
                     <input type="submit" value=확인>
                 </form>
             </div>
+</center>
         </div>
     </body>
 </html>

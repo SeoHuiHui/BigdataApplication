@@ -2,7 +2,7 @@
 
 $mysqli = mysqli_connect("localhost", "team03", "team03", "team03");
 
-$sql="CREATE TABLE users(user_name VARCHAR(75), password VARCHAR(75))";
+$sql="CREATE TABLE users(user_name VARCHAR(75) PRIMARY KEY, password VARCHAR(75))";
 $res=mysqli_query($mysqli, $sql);
 
 $sql="INSERT INTO users(user_name, password)
