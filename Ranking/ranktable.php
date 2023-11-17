@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <meta charset="utf-8" />
 <link rel="stylesheet" type="text/css" href="../css/style.css">
+<?php include '../header.php'; ?>
 <h1 class="heading-title"><span style="font-size:50px">Ranked Table</span></h1>
 <br>
 

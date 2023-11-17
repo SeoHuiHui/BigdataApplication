@@ -12,10 +12,13 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
     $uname = validate($_POST['uname']);
     $pass = validate($_POST['password']);
     if (empty($uname)) {
-        header("Location: index.php?error=User Name is required");
+        echo "<script>alert('Please enter id.');</script>";
+        echo "<script>window.location.href='index.php';</script>";
         exit();
+        
     }else if(empty($pass)){
-        header("Location: index.php?error=Password is required");
+        echo "<script>alert('Please enter password.');</script>";
+        echo "<script>window.location.href='index.php';</script>";
         exit();
     }else{
         $sql = "SELECT * FROM users WHERE user_name='$uname' AND password='$pass'";
@@ -33,12 +36,16 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
                 }
                 exit();
             }else{
-                header("Location: index.php?error=Incorect User name or password");
+                echo "<script>alert('wrong id/password.');</script>";
+                echo "<script>window.location.href='index.php';</script>";
                 exit();
+            
             }
         }else{
-            header("Location: index.php?error=Incorect User name or password");
+            echo "<script>alert('wrong id/password.');</script>";
+            echo "<script>window.location.href='index.php';</script>";
             exit();
+            
         }
     }
     

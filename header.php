@@ -16,7 +16,7 @@
                 </div>
                 <nav>
                     <ul id="topMenu">
-                        <!-- <a href="javascript:history.back()">Go Back</a> -->
+                        
                         <a href="../Themes/themes.php">Travel Themes</a>
                         <a href="../Ranking/ranking.php">Travel Ranking</a>
                         <a href="../Transport/transportation.php">Transport</a>
@@ -25,7 +25,9 @@
                         <a href="../logout.php">Logout</a>
                     </ul>
                 </nav>
+                <!-- <a href="javascript:history.back()">Go Back</a> -->
             </div>
         </header>
     </body>
 </html>
+
